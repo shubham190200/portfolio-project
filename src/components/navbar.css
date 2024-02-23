@@ -1,0 +1,47 @@
+.navbar{
+    height: 5rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    top: 0;
+    z-index: 3;
+}
+.logo{
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+    font-size: 0.2rem;
+}
+.desktopbutton:hover {
+    background-color:yellow; /* Change to desired hover background color */
+}
+.navbarList{
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+.navbarList:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid;
+
+}
+.desktopbutton {
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    margin: 2rem;
+    border-radius: 2rem; /* Added this line to remove rounded corners */
+    cursor: pointer;
+    width: 100px; 
+    height: 30px; /* It's good to have a pointer cursor for button */
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+    
+}
