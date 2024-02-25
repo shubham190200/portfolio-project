@@ -1,0 +1,88 @@
+#intro{
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh -5rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.introContent{
+    padding: 5px;
+}
+
+.bg{
+    position: absolute;
+    object-fit: cover;
+    height: 100vh;
+    right: 0;
+    z-index: -1;
+    top: -5rem;
+    width: 50%;
+
+}
+.introContent{
+    height: 100vh;
+    width: 50vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size:1.75rem ;
+    font-weight: 100;
+}
+.introName{
+    color: yellow;
+
+}
+.introPara{
+    font-size: medium;
+    font-weight: 100;
+
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+    #intro {
+        flex-direction: column; /* Stack the image and content */
+        height: auto; /* Let the content define the height */
+    }
+
+    .introContent {
+        width: 100%; /* Take full width */
+        height: auto; /* Adjust height automatically */
+        padding: 1rem; /* Adjust padding for smaller screens */
+        font-size: 2rem; /* Adjust font size for smaller screens */
+        order: 2; /* Make content appear after the background image */
+    }
+
+    .bg {
+        width: 100%; /* Cover the full width */
+        height: 50vh; /* Set a fixed height for the background image */
+        top: 0; /* Reset the top position */
+        order: 1; /* Make background image appear before the content */
+    }
+
+    .hello {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .introPara {
+        font-size: small; /* Adjust font size for smaller screens */
+    }
+}
+
+/* Further adjustments for very small screens */
+@media (max-width: 480px) {
+    .introContent {
+        font-size: 1.5rem; /* Even smaller font size for very small screens */
+    }
+
+    .hello {
+        font-size: 1.25rem; /* Adjust font size for very small screens */
+    }
+}

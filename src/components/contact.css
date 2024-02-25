@@ -1,0 +1,65 @@
+.contact {
+    background: var(--secon-bg-color); /* Adjust the background color as needed */
+    width: 100%;
+    padding: 2rem 0; /* Add padding for spacing around the content */
+  }
+  
+  .contact form {
+    text-align: center;
+    max-width: 50rem;
+    margin: 0 auto; /* Center the form in the section */
+    padding: 2rem; /* Add padding inside the form for spacing */
+    border-radius: 8px solid yellow; /* Optional: adds rounded corners to the form */
+    box-shadow: yellow; /* Optional: adds a subtle shadow for depth */
+ 
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    width: 90%; /* Slightly less than full width for aesthetics */
+    color:white;
+    margin-bottom: 1rem;
+    border: 5px yellow; /* Ensures the border is visible */
+    border-radius: 5px;
+    padding: 0.7rem;
+    display: block; /* Ensures inputs are block-level elements */
+    margin: 1rem auto; /* Centers inputs and adds space between them */
+  }
+  
+  .contact form textarea {
+    resize: vertical; /* Allows vertical resizing only */
+    height: 150px; /* Sets an initial height */
+  }
+  
+  .main_text {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+
+  .main_text h2 {
+    color: yellow; /* Make the heading stand out */
+    font-size: 2rem; /* Increase font size for visibility */
+    font-weight: bold;
+  }
+  
+  .formbutton {
+    display: flex;
+    justify-content: center; /* Centers the button container */
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Slightly rounded corners for aesthetics */
+    transition: background-color 0.2s; /* Smooth transition for hover effect */
+    font-size: 1rem; /* Adjust font size as needed */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  

@@ -1,0 +1,24 @@
+.skillsContainer {
+    color: #fff;
+    padding: 20vh 5rem; /* Adjust the top and bottom padding to use vh for vertical centering */
+    text-align: center;
+  }
+  
+  .skillsGrid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .skill {
+    margin: 1rem;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .skillName {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  

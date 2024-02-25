@@ -1,0 +1,74 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 60vw;
+    margin-top: 80px;
+  }
+  
+  .project-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .project-card {
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 1rem;
+    background-color: rgb(26, 27, 24);
+    border-radius: 10px;
+    width: calc(33.333% - 2rem);
+    box-sizing: border-box;
+    text-align: center; /* Center the buttons and text */
+    margin: 1rem;
+    color: white;
+  }
+  
+  .projectimg {
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .project-buttons {
+    display: flex;
+    justify-content: space-around; /* Space out buttons */
+    margin-top: 1rem;
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #f0f0f0;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color:yellow; /* Change as needed */
+    color: black;
+  }
+  
+  /* Media query adjustments */
+  @media (max-width: 768px) {
+    .project-card {
+      width: calc(50% - 2rem);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .project-card {
+      width: calc(100% - 2rem);
+    }
+  }
+  
+  .workstitle {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  

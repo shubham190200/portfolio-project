@@ -8,6 +8,8 @@
     display: flex;
     top: 0;
     z-index: 3;
+    position: sticky;
+    background-color:black;
 }
 .logo{
     object-fit: cover;
@@ -36,12 +38,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 1rem;
+    padding: 2 1rem;
     margin: 2rem;
     border-radius: 2rem; /* Added this line to remove rounded corners */
     cursor: pointer;
     width: 100px; 
     height: 30px; /* It's good to have a pointer cursor for button */
-    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+    transition: background-color 0.1s ease; /* Smooth background color transition on hover */
     
 }
